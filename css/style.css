@@ -48,3 +48,59 @@ main{
     height: 150px;
     border: 4px solid #000;
 }
+.contact span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 3px;
+}
+.contact span i{
+    margin: 2px;
+}
+/* inizio footer */
+footer{
+    height: 90px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    color: white;
+    border-bottom: 2px solid lightgray;
+}
+footer i{
+    font-size:25px;
+    margin-bottom:5px;
+}
+.colonna, .col-center, .col-small{
+    display: flex;
+    align-items: center;
+}
+.item{
+    text-align: center;
+    margin: 0 8px;
+    cursor:pointer;
+}
+.item-tool{
+    display: inline-block;
+    vertical-align: middle;
+}
+.col-small {
+    width: 10%;
+    background-color: rgb(92, 90, 90);
+    position: relative;
+}
+.btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: red;
+    width: 80%;
+}
+.green{
+    color: green;
+}
+/* fine footer */
+
