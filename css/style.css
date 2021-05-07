@@ -5,6 +5,17 @@
 }
 header{
     width: 100%;
-    height: 100px;
-    background-color: aqua;
+    height: 50px;
+    background-color:black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+button{
+    padding: 3px;
+    margin: 5px;
 }
